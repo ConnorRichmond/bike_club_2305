@@ -26,5 +26,5 @@ class Biker
     records ? records.min : false
   end
 
-  #end
+  #end class
 end
