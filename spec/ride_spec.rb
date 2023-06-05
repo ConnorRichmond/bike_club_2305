@@ -24,7 +24,7 @@ describe Ride do
   end
 
   it 'is double distance' do
-    expect(ride1.distance).to eq(21.4)
+    expect(ride1.total_distance).to eq(21.4)
   end
 
   it 'is a loop' do
@@ -32,7 +32,7 @@ describe Ride do
   end
 
   it 'is normal distance' do
-    expect(ride2.distance).to eq(14.9)
+    expect(ride2.total_distance).to eq(14.9)
   end
 
 #end test
